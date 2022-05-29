@@ -1,23 +1,24 @@
 {
   "name": "goit-js-hw-10",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "## Скрытые файлы",
+  "main": ".posthtmlrc.js",
   "homepage": "https://Skladaniuk.github.io/goit-js-hw-10",
+
   "scripts": {
-    "dev": "parcel src/index.html",
+    "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-10/"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Skladaniuk/goit-js-hw-10.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Skladaniuk/goit-js-hw-10/issues"
   },
+
   "dependencies": {
     "lodash.debounce": "^4.0.8",
     "notiflix": "^3.2.5"
